@@ -50,7 +50,7 @@ private extension CityViewController {
             }
         }
 
-        //a
+        //ab
         viewModel.reloadData = { [weak self] data in
             DispatchQueue.main.async {
                 self?.humidityLabel.text = data.humidity
