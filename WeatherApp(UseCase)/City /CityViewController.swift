@@ -69,5 +69,7 @@ private extension CityViewController {
         label.textColor = .darkText
         label.textAlignment = .left
         label.numberOfLines = 0
+        label.backgroundColor = UIColor(red: 52/255.0, green: 109/255.0, blue: 179/255.0 , alpha: 1.0)
+        view.backgroundColor = UIColor(red: 52/255.0, green: 109/255.0, blue: 179/255.0 , alpha: 1.0)
     }
 }

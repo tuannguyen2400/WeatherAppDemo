@@ -107,6 +107,8 @@ private extension HomeViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.tableFooterView = UIView()
+        tableView.backgroundColor = UIColor(red: 52/255.0, green: 109/255.0, blue: 179/255.0 , alpha: 1.0)
+        view.backgroundColor = UIColor(red: 52/255.0, green: 109/255.0, blue: 179/255.0 , alpha: 1.0)
     }
 
     func pushToCityViewController(with city: String) {
