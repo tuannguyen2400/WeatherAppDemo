@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E85D76227F17021004E0931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E85D76127F17021004E0931 /* AppDelegate.swift */; };
 		6E85D76427F17021004E0931 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E85D76327F17021004E0931 /* SceneDelegate.swift */; };
 		6E85D76927F17021004E0931 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E85D76727F17021004E0931 /* Home.storyboard */; };
 		6E85D76E27F17025004E0931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E85D76D27F17025004E0931 /* Assets.xcassets */; };
@@ -21,7 +20,8 @@
 		6E85D7A827F183FD004E0931 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E85D7A727F183FD004E0931 /* HomeViewModel.swift */; };
 		6E85D7AC27F194C8004E0931 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E85D7AB27F194C8004E0931 /* CityViewController.swift */; };
 		6E85D7AE27F194D6004E0931 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E85D7AD27F194D6004E0931 /* CityViewModel.swift */; };
-		6E85D7B027F3676A004E0931 /* City.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E85D7AF27F3676A004E0931 /* City.storyboard */; };
+		71A5043B27F2FA3E00D7037C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E85D76127F17021004E0931 /* AppDelegate.swift */; };
+		71A8FCC827F6ECAD00143AD3 /* City.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A8FCC727F6ECAD00143AD3 /* City.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		6E85D7A727F183FD004E0931 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		6E85D7AB27F194C8004E0931 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 		6E85D7AD27F194D6004E0931 /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
-		6E85D7AF27F3676A004E0931 /* City.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = City.storyboard; sourceTree = "<group>"; };
+		71A8FCC727F6ECAD00143AD3 /* City.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = City.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +124,9 @@
 		6E85D79427F17E04004E0931 /* City  */ = {
 			isa = PBXGroup;
 			children = (
-				6E85D7AF27F3676A004E0931 /* City.storyboard */,
 				6E85D7AB27F194C8004E0931 /* CityViewController.swift */,
 				6E85D7AD27F194D6004E0931 /* CityViewModel.swift */,
+				71A8FCC727F6ECAD00143AD3 /* City.storyboard */,
 			);
 			path = "City ";
 			sourceTree = "<group>";
@@ -146,6 +146,7 @@
 			children = (
 				6E85D79E27F1826B004E0931 /* Components */,
 				6E85D7A527F183F0004E0931 /* HomeViewController.swift */,
+				6E85D76727F17021004E0931 /* Home.storyboard */,
 				6E85D7A727F183FD004E0931 /* HomeViewModel.swift */,
 			);
 			path = Home;
@@ -156,7 +157,6 @@
 			children = (
 				6E85D79F27F1828E004E0931 /* HomeTableViewCell.xib */,
 				6E85D7A127F182AA004E0931 /* HomeTableViewCell.swift */,
-				6E85D76727F17021004E0931 /* Home.storyboard */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 				6E85D77127F17025004E0931 /* LaunchScreen.storyboard in Resources */,
 				6E85D76E27F17025004E0931 /* Assets.xcassets in Resources */,
 				6E85D7A027F1828E004E0931 /* HomeTableViewCell.xib in Resources */,
-				6E85D7B027F3676A004E0931 /* City.storyboard in Resources */,
+				71A8FCC827F6ECAD00143AD3 /* City.storyboard in Resources */,
 				6E85D76927F17021004E0931 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,10 +299,10 @@
 				6E85D79727F17E99004E0931 /* Value.swift in Sources */,
 				6E85D7A827F183FD004E0931 /* HomeViewModel.swift in Sources */,
 				6E85D79A27F18054004E0931 /* Search.swift in Sources */,
-				6E85D76227F17021004E0931 /* AppDelegate.swift in Sources */,
 				6E85D7A627F183F0004E0931 /* HomeViewController.swift in Sources */,
 				6E85D76427F17021004E0931 /* SceneDelegate.swift in Sources */,
 				6E85D7A227F182AA004E0931 /* HomeTableViewCell.swift in Sources */,
+				71A5043B27F2FA3E00D7037C /* AppDelegate.swift in Sources */,
 				6E85D79C27F18063004E0931 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,6 +593,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MT.WeatherApp-UseCase-UITests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -616,6 +617,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MT.WeatherApp-UseCase-UITests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

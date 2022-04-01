@@ -27,6 +27,7 @@ class CityViewController: UIViewController {
         setupView()
         setupBinding()
         viewModel.fetchWeather()
+        
     }
 }
 
@@ -62,6 +63,7 @@ private extension CityViewController {
 
     func setupWeatherIconImageView() {
         weatherIconImageView.contentMode = .scaleAspectFit
+        weatherIconImageView.layer.cornerRadius = weatherIconImageView.frame.height/4
     }
 
     func setupLabel(_ label: UILabel) {
@@ -69,7 +71,6 @@ private extension CityViewController {
         label.textColor = .darkText
         label.textAlignment = .left
         label.numberOfLines = 0
-        label.backgroundColor = UIColor(red: 52/255.0, green: 109/255.0, blue: 179/255.0 , alpha: 1.0)
-        view.backgroundColor = UIColor(red: 52/255.0, green: 109/255.0, blue: 179/255.0 , alpha: 1.0)
+       
     }
 }
